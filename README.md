@@ -13,8 +13,8 @@ Here's the basic flow:
 - Local windows server requests LAPS password
 - Writes password to a designated section of Vault
 - Jira ticket is resolved with a link to the secret in Vault. Only the requesting user has access to this entry in Vault.
-- 
-In general, the process takes less than a minute.
+
+In general, the process takes less than a minute. Any slowness is usually down to Azure's automation process.
 
 
 ### Requirements
